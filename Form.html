@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatiable" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+</head>
+<body>
+
+    <form action="index.php" method="POST">
+
+        <lebel for="usermane">username:</lebel>
+        <input type="text" id="username" placeholder="spongebob" minlength="6"  maxlength="15" required><br>
+
+       
+        <lebel for="password">password:</lebel>
+        <input type="password" id="password" minlength="6"  maxlength="15" required><br>
+        
+        <lebel for="email">email:</lebel>
+        <input type="email" id="email" placeholder="SSquarepants@gmail.com"><br>
+        
+        <lebel for="phone">phone #:</lebel>
+        <input type="phone" id="phone" placeholder="123-456-7890" pattern="(0-9)(3)-(0-9)(3)(0-9)(4)"><br>
+        
+        <lebel for="bday">birthday:</lebel>
+        <input type="date" id="bday"><br>
+
+        <lebel for="quantity">quantity:</lebel>
+        <input type="number" id="quantity" min="0" max="99"><br>
+
+        <lebel for="titel">title.:</lebel>
+
+        <lebel for="Mr.">Mr.:</lebel>
+        <input type="radio" id="Mr." value="Mr." name="title">
+        <lebel for="Ms.">Ms.:</lebel>
+        <input type="radio" id="Ms." value="Ms." name="title">
+        <lebel for="phD">phD.:</lebel>
+        <input type="radio" id="phD." value="phD." name="title"><br>
+
+        <lebel for="payment">payment:</lebel>
+        <select id="payment">
+            <option value="visa">visa</option>
+            <option value="mastercard">mastercard</option>
+            <option value="giftcard">giftcard</option>
+        </select><br>
+        
+        <lebel for="subscribe">subscribe:</lebel>
+        <input type="checkbox" id="subscribe"><br>
+
+        <lebel for="comment">comment:</lebel>
+        <textarea id="comment" rows="3" cols="25"></textarea><br>
+
+        
+        <input type="reset"><br>
+        <input type="submit">
+
+
+    </form>
+</body>
+</html>
